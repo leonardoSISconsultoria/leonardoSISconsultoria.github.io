@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <title>SIS Login</title>
+    </head>
+    <body>
+        <div class="logo"><img class="img" src="logologinsis.png" width="300" height="300"></div>
+        <div id="login">
+            <div><input class="input-login" type="text" autocomplete="new-password" placeholder="Usuário" onfocus="this.value='';"></div>
+            <div><input class="input-senha" type="password" placeholder="Senha" autocomplete="new-password"></div>
+            <div><input class="btn-login" onclick="redirect('main')" type="submit" value="Login"></div>
+            <div><h1 class="EsqueceuSenha">Esqueci a Senha</h1></div>
+        </div>
+        <div><p class="font-bold">Tech. Hunting</p><p>Atração e seleção by SIS</p></div>
+        <script>function redirect(page) {window.location.href = `${page}.html`}</script>
+    </body>
+</html>
