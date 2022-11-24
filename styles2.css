@@ -280,6 +280,7 @@ body {
     overflow: hidden;
     overflow-anchor: none;
     animation: fundo 2s;
+    user-select: none;
 }
 
 @keyframes fundo {
